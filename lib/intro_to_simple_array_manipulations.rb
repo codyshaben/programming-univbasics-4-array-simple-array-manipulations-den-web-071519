@@ -49,7 +49,8 @@ def using_delete(instructors, name)
   instructors.delete(name)
 end
 
-def using_delete_at(famous_robots, 2)
-  famous_robots.delete(2)
+index = 2
+def using_delete_at(famous_robots, index)
+  famous_robots.delete(index)
 end
 
