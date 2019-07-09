@@ -51,6 +51,6 @@ end
 
 index = [2]
 def using_delete_at(famous_robots, index)
-  famous_robots.delete(index)
+  famous_robots.delete_at(index)
 end
 
